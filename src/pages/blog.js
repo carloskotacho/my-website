@@ -1,5 +1,13 @@
 import React from 'react';
 
-const BlogPage = () => <h1>Blog Page</h1>;
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+
+const BlogPage = () => (
+  <Layout>
+    <SEO title="About" />
+    <h1>Blog page</h1>
+  </Layout>
+);
 
 export default BlogPage;

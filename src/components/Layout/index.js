@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Profile from '../Profile';
 
+import GlobalStyles from '../../styles/global';
+
 const LayoutWrapper = styled.section`
   display: grid;
 `;
@@ -17,6 +19,7 @@ const LayoutMain = styled.main`
 const Layout = ({ children }) => {
   return (
     <LayoutWrapper>
+      <GlobalStyles />
       <aside>
         <Profile />
       </aside>

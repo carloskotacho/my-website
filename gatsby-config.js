@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`,
-    description: `My first website`,
-    author: `@carloskotacho`,
+    title: `Carlos H. K.`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+    position: `Programming student at UTFPR`,
+    author: `@carlosk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,4 +32,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

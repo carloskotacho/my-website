@@ -22,9 +22,7 @@ const Profile = () => {
   return (
     <S.ProfileWrapper>
       <S.ProfileLink>
-        <S.ProfileAuthor>
-          { title }
-        </S.ProfileAuthor>
+        <S.ProfileAuthor>{title}</S.ProfileAuthor>
       </S.ProfileLink>
     </S.ProfileWrapper>
   );
